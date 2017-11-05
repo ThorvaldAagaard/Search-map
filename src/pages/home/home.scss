@@ -1,0 +1,36 @@
+page-home {
+    #map {
+        height: 100%;
+        z-index: 0;
+    }
+    #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+        pointer-events: auto;
+    }
+        
+    .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+    }
+        
+    .pac-controls label {
+        font-size: 13px;
+        font-weight: 300;
+    }
+        
+    #pacinput1 {
+        background-color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 5px 15px 5px 13px;
+        text-overflow: ellipsis;
+        width: 45%;
+        border: 2px;
+        top: 10px !important;
+        border-color: black;
+    }
+        
+}
